@@ -268,6 +268,7 @@ MonoBehaviour:
     type: 3}
   parent: {fileID: 2026460357}
   scorePerHit: 100
+  hits: 3
 --- !u!1 &330516582
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1278,7 @@ MonoBehaviour:
     type: 3}
   parent: {fileID: 2026460357}
   scorePerHit: 100
+  hits: 3
 --- !u!1 &1275273905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,6 +1331,7 @@ MonoBehaviour:
     type: 3}
   parent: {fileID: 2026460357}
   scorePerHit: 100
+  hits: 3
 --- !u!1001 &1305242441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1419,6 +1422,7 @@ MonoBehaviour:
     type: 3}
   parent: {fileID: 2026460357}
   scorePerHit: 12
+  hits: 3
 --- !u!1 &1403010294 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1249553951781956, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b,
@@ -1441,6 +1445,7 @@ MonoBehaviour:
     type: 3}
   parent: {fileID: 2026460357}
   scorePerHit: 100
+  hits: 3
 --- !u!1 &1421660327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,6 +1967,7 @@ MonoBehaviour:
     type: 3}
   parent: {fileID: 2026460357}
   scorePerHit: 12
+  hits: 3
 --- !u!1 &2026460356
 GameObject:
   m_ObjectHideFlags: 0
@@ -2431,6 +2437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532773368494512698, guid: 7d35bed1a2ab0425880d10497fe03347,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4170023137022699397, guid: 7d35bed1a2ab0425880d10497fe03347,
         type: 3}
