@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SplashScreen.unity
-    guid: 94ba32803aa8645ad83508b47a1ebd13
-  - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: d0b9f87ef92a0483f8edae068c3fe9c8
+    path: Assets/Assets Packs/MinesEvader/Scenes/Spaceship.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}
