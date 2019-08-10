@@ -267,6 +267,7 @@ MonoBehaviour:
   explosion: {fileID: 6337593981263064736, guid: 5ca7a51b04eca43839edc3fde28dfc83,
     type: 3}
   parent: {fileID: 2026460357}
+  scorePerHit: 100
 --- !u!1 &330516582
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,8 +724,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -255.1, y: -194}
-  m_SizeDelta: {x: -578.3, y: -440.4}
+  m_AnchoredPosition: {x: -741, y: -447}
+  m_SizeDelta: {x: -1570.4, y: -978.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &658773688
 MonoBehaviour:
@@ -1275,6 +1276,7 @@ MonoBehaviour:
   explosion: {fileID: 6337593981263064736, guid: 5ca7a51b04eca43839edc3fde28dfc83,
     type: 3}
   parent: {fileID: 2026460357}
+  scorePerHit: 100
 --- !u!1 &1275273905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,6 +1328,7 @@ MonoBehaviour:
   explosion: {fileID: 6337593981263064736, guid: 5ca7a51b04eca43839edc3fde28dfc83,
     type: 3}
   parent: {fileID: 2026460357}
+  scorePerHit: 100
 --- !u!1001 &1305242441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1415,6 +1418,7 @@ MonoBehaviour:
   explosion: {fileID: 6337593981263064736, guid: 5ca7a51b04eca43839edc3fde28dfc83,
     type: 3}
   parent: {fileID: 2026460357}
+  scorePerHit: 12
 --- !u!1 &1403010294 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1249553951781956, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b,
@@ -1436,6 +1440,7 @@ MonoBehaviour:
   explosion: {fileID: 6337593981263064736, guid: 5ca7a51b04eca43839edc3fde28dfc83,
     type: 3}
   parent: {fileID: 2026460357}
+  scorePerHit: 100
 --- !u!1 &1421660327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1956,6 +1961,7 @@ MonoBehaviour:
   explosion: {fileID: 6337593981263064736, guid: 5ca7a51b04eca43839edc3fde28dfc83,
     type: 3}
   parent: {fileID: 2026460357}
+  scorePerHit: 12
 --- !u!1 &2026460356
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,10 +2131,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

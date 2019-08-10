@@ -8,26 +8,26 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject explosion;
     [SerializeField] Transform parent;
 
+    [SerializeField] int scorePerHit = 12;
+
+    ScoreBoard scoreBoard;
+
     // Start is called before the first frame update
     void Start()
     {
-        AddNonTriggerBoxCollider();
+        AddBoxCollider();
+        scoreBoard = FindObjectOfType<ScoreBoard>();
     }
 
-    private void AddNonTriggerBoxCollider()
+    private void AddBoxCollider()
     {
         Collider boxCollider = gameObject.AddComponent<BoxCollider>();
         boxCollider.isTrigger = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void OnParticleCollision(GameObject other)
     {
+        scoreBoard.ScoreHit(scorePerHit);
         GameObject fx = Instantiate(explosion, transform.position, Quaternion.identity);
         fx.transform.parent = parent;
         Destroy(gameObject);
