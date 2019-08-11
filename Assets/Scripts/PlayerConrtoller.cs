@@ -23,20 +23,19 @@ public class PlayerConrtoller : MonoBehaviour
     [SerializeField] float controlRollFactor = -20f;
     [SerializeField] GameObject[] guns;
 
-
     float xThrow;
     float yThrow;
 
     bool isControlEnabled = true;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
 
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (isControlEnabled)
         {
@@ -64,14 +63,12 @@ public class PlayerConrtoller : MonoBehaviour
     {
         foreach (GameObject gun in guns)
         {
-            var emmissionModule = gun.GetComponent<ParticleSystem>().emission;
-            emmissionModule.enabled = isActive;
+            var emissionModule = gun.GetComponent<ParticleSystem>().emission;
+            emissionModule.enabled = isActive;
         }
     }
 
-
-
-    void OnPlayerDeath()
+    private void OnPlayerDeath()
     {
         isControlEnabled = false;
 
